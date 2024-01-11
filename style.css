@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+html {
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 1080px;
+  background-color: silver;
+  height: 100vh;
+}
+
+h1 {
+  border: 2px solid darkslategrey;
+  color: darkslategrey;
+  border-radius: 0.5em;
+  font-size: 3rem;
+  padding: 1em 2em;
+  margin: 1em;
+  text-align: center;
+}
+
+button {
+  background-color: darkslategrey;
+  color: silver;
+  border-radius: 0.5em;
+  font-size: 2rem;
+  padding: 1em 2em;
+  margin: 1em;
+}
+
+#my-fav-number {
+  font-size: 4em;
+}
+
+#user-fav-number {
+  font-size: 4em;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  align-content: center;
+  width: 600px;
+  padding: 1em;
+  background: gray;
+  border-radius: 1em;
+  margin: 2em;
+}
+
+.movie-card-left,
+.movie-card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.movie-card-left img {
+  width: 200px;
+  height: 30%;
+}
+
+.movie-card-right h2 {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  width: 100%;
+  font-size: 2em;
+}
+
+.movie-card-right p {
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+#gb-watch-approval {
+  padding: 1em;
+  text-align: center;
+}
